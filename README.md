@@ -1,4 +1,4 @@
-# Yonote MCP Server
+# Yonote MCP Server Prototype
 
 This is an MVP project of an MCP (Multi-Channel Platform) server for the Yonote service, an alternative to Notion. The server provides API tools to interact with Yonote documents and collections.
 
