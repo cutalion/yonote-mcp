@@ -84,3 +84,5 @@ To use this MCP server with Cursor, add the following to your `~/.cursor/mcp.jso
 ```
 
 Replace `/path/to/yonote-mcp` with the actual path to your project directory.
+
+![Screenshot](./screenshot.png)
