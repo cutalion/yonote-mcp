@@ -1,0 +1,24 @@
+# Smithery configuration file: https://smithery.ai/docs/build/project-config
+
+startCommand:
+  type: stdio
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    required:
+      - apiToken
+    properties:
+      apiToken:
+        type: string
+        description: Yonote API token
+      apiBaseUrl:
+        type: string
+        default: https://app.yonote.ru/api
+        description: Base URL for Yonote API
+  commandFunction:
+    # A JS function that produces the CLI command based on the given config to start the MCP on stdio.
+    |-
+    (config) => ({ command: 'python', args: ['main.py'], env: { API_TOKEN: config.apiToken, API_BASE_URL: config.apiBaseUrl } })
+  exampleConfig:
+    apiToken: YOUR_YONOTE_API_TOKEN
+    apiBaseUrl: https://app.yonote.ru/api
