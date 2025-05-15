@@ -1,4 +1,5 @@
 # Yonote MCP Server Prototype
+[![smithery badge](https://smithery.ai/badge/@cutalion/yonote-mcp)](https://smithery.ai/server/@cutalion/yonote-mcp)
 
 This is an MVP project of an MCP (Multi-Channel Platform) server for the Yonote service, an alternative to Notion. The server provides API tools to interact with Yonote documents and collections.
 
@@ -20,6 +21,15 @@ This is an MVP project of an MCP (Multi-Channel Platform) server for the Yonote 
 
 ## Setup
 
+### Installing via Smithery
+
+To install Yonote Document Interaction Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@cutalion/yonote-mcp):
+
+```bash
+npx -y @smithery/cli install @cutalion/yonote-mcp --client claude
+```
+
+### Manual Installation
 1. **Clone the repository:**
    ```bash
    git clone <your-repo-url>
