@@ -1,7 +1,7 @@
 # Yonote MCP Server Prototype
 [![smithery badge](https://smithery.ai/badge/@cutalion/yonote-mcp)](https://smithery.ai/server/@cutalion/yonote-mcp)
 
-This is an MVP project of an MCP (Multi-Channel Platform) server for the Yonote service, an alternative to Notion. The server provides API tools to interact with Yonote documents and collections.
+This is an MVP project of an MCP server for the Yonote service, an alternative to Notion. The server provides API tools to interact with Yonote documents and collections.
 
 ## Features
 
